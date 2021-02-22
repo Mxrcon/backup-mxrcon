@@ -7,7 +7,7 @@ entries:
       - title: simple blogging about my every-days
       - title: "<a href='https://github.com/Mxrcon'>my github</a>"
 
-  - title: all posts
+  - title: my posts
     post_list:
       limit: 3
       show_more: true
@@ -23,4 +23,3 @@ entries:
 
 #  - title: rss
 #    url: feed.xml
- 
