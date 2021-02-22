@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<style>
+body {
+   background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+   background: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+   background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+   background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+   background: linear-gradient(to bottom, #ffffff 0%,#ffffff 100%);
+   background-attachment:fixed;
+   font-family:monospace;
+
+   font-size:12px;
+   color:#fff;
+
+   color:#000;
+
+}
+
+
+
+.beta {
+   width:500px;
+   margin-bottom:30px;
+   border:8px solid #fff;
+   border-image:url(https://static.tumblr.com/vnvj8kg/nSin0ur1x/dot64.png) 0 0 8 8 repeat;
+   border-top:none;
+   border-right:none;
+   opacity:0.8;
+   -webkit-transition:100ms all linear;
+   position:relative;
+
+   border:8px solid #000;
+   border-image:url(https://static.tumblr.com/vnvj8kg/vJGn0ur2a/dot64dark.png) 0 0 8 8 repeat;
+
+}
+.beta:hover {
+   -webkit-transition:100ms all linear;
+   opacity:1;
+}
+.gamma {
+   outline:3px #fff solid;
+   padding:11px;
+
+   outline:3px #000 solid;
+
+
+}
+   .title {padding:11px;margin-bottom:3px;font-size:14px;font-style:italic;}
+   .body {}
+   .pix {padding:0;}
+   .caption {margin-top:3px;}
+   .quote {font-size:18px;}
+   .quote:before {content:'\201C';display:inline;margin-right:-8px;}
+   .quote:after {content:'\201D';display:inline;margin-left:-8px;}
+    .quote p:first-child, .quote p:last-child {
+          display: inline;
+      }
+   .answer {margin-top:3px;}
+
+header {
+   font-size:30px;
+   margin-bottom:50px;
+   font-family:
+}
+header a {
+    color:#fff;
+
+    color:#000;
+
+    opacity:0.9;
+}
+
+
+
+
+</style>
+{% include back_link.html %}
+<p class="post-meta">
+  <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+</p>
+
+<section class="delta">
+
+
+   <section class="post beta">
+
+
+
+
+      <section class="title gamma">{{ page.title }}</section>
+
+      <section class="body gamma">
+         {{ content }}
+      </section>
+   </section>
+
+   </section>
