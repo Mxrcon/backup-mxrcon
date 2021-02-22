@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post2
 author: Davi M.
 bus_taken:
 
