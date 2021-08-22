@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+<head>
+<!-- 2021-08-21 Sat 22:06 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BT01018 - SIMULAÇÃO COMPUTACIONAL DE AMINOÁCIDOS E PROTEÍNAS</title>
+<meta name="author" content="Davi J. Marcon (@Mxrcon)" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="GTD.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">BT01018 - SIMULAÇÃO COMPUTACIONAL DE AMINOÁCIDOS E PROTEÍNAS
+<br />
+<span class="subtitle">Davi Marcon - Agosto de 2021</span>
+</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org4e7fcba">AULA 1: Introdução a estrututuras de proteínas -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></a></li>
+<li><a href="#orgbd21d12">AULA 2: Aminoácidos -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></a></li>
+<li><a href="#org22fe196">AULA 3: Ligação peptídica -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></a></li>
+<li><a href="#orgedac763">AULA 4: Interações não covalentes -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></a></li>
+<li><a href="#org5294f9f">AULA 5: Estrutura de proteínas -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></a></li>
+<li><a href="#orgf00384d">AULA 6:</a></li>
+<li><a href="#org41fc475">AULA 7:</a></li>
+<li><a href="#orge3580e4">AULA 8:</a></li>
+<li><a href="#org10e49e1">AULA 9</a></li>
+<li><a href="#org4e99ebf">AULA 10</a></li>
+<li><a href="#orgca161ee">AULA 11</a></li>
+<li><a href="#orga65c255">AULA 12</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org4e7fcba" class="outline-2">
+<h2 id="org4e7fcba">AULA 1: Introdução a estrututuras de proteínas -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></h2>
+<div class="outline-text-2" id="text-org4e7fcba">
+</div>
+<div id="outline-container-orge0aea96" class="outline-3">
+<h3 id="orge0aea96">Introdução a disciplina</h3>
+<div class="outline-text-3" id="text-orge0aea96">
+<p>
+Enzimas são alvos terapêuticos e são estudadas por serem possíveis alvos de medicamentos
+</p>
+
+<p>
+Existem Inúmeras aplicações para o uso das enzimas e ainda hoje esses estudos tem grande impacto na comunidade científica
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbd21d12" class="outline-2">
+<h2 id="orgbd21d12">AULA 2: Aminoácidos -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></h2>
+<div class="outline-text-2" id="text-orgbd21d12">
+<p>
+A vida está intimamente ligada as proteínas e depende delas
+</p>
+</div>
+
+<div id="outline-container-org4b3f05e" class="outline-3">
+<h3 id="org4b3f05e">Aminoácidos</h3>
+<div class="outline-text-3" id="text-org4b3f05e">
+<p>
+(C) central com uma ligação ao grupo amino (-NH2) e outra ao grupo carboxila (-COOH) e a uma cadeia lateral variável
+</p>
+</div>
+
+<div id="outline-container-orgd46a79a" class="outline-4">
+<h4 id="orgd46a79a">Lista de aminoácidos</h4>
+<div class="outline-text-4" id="text-orgd46a79a">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Letra</th>
+<th scope="col" class="org-left">Nome do aminoácido</th>
+<th scope="col" class="org-left">Abreviação com 3 letras</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">G</td>
+<td class="org-left">Glycine</td>
+<td class="org-left">Gly</td>
+</tr>
+
+<tr>
+<td class="org-left">A</td>
+<td class="org-left">Alanine</td>
+<td class="org-left">Ala</td>
+</tr>
+
+<tr>
+<td class="org-left">L</td>
+<td class="org-left">Leucine</td>
+<td class="org-left">Leu</td>
+</tr>
+
+<tr>
+<td class="org-left">M</td>
+<td class="org-left">Methionine</td>
+<td class="org-left">Met</td>
+</tr>
+
+<tr>
+<td class="org-left">F</td>
+<td class="org-left">Phenylalanine</td>
+<td class="org-left">Phe</td>
+</tr>
+
+<tr>
+<td class="org-left">W</td>
+<td class="org-left">Triptophan</td>
+<td class="org-left">Trp</td>
+</tr>
+
+<tr>
+<td class="org-left">K</td>
+<td class="org-left">Lysine</td>
+<td class="org-left">Lys</td>
+</tr>
+
+<tr>
+<td class="org-left">Q</td>
+<td class="org-left">Glutamine</td>
+<td class="org-left">Gln</td>
+</tr>
+
+<tr>
+<td class="org-left">E</td>
+<td class="org-left">Glutamic Acid</td>
+<td class="org-left">Glu</td>
+</tr>
+
+<tr>
+<td class="org-left">S</td>
+<td class="org-left">Serine</td>
+<td class="org-left">Ser</td>
+</tr>
+
+<tr>
+<td class="org-left">P</td>
+<td class="org-left">Proline</td>
+<td class="org-left">Pro</td>
+</tr>
+
+<tr>
+<td class="org-left">V</td>
+<td class="org-left">Valine</td>
+<td class="org-left">Val</td>
+</tr>
+
+<tr>
+<td class="org-left">I</td>
+<td class="org-left">Isoleucine</td>
+<td class="org-left">Ile</td>
+</tr>
+
+<tr>
+<td class="org-left">C</td>
+<td class="org-left">Cysteine</td>
+<td class="org-left">Cys</td>
+</tr>
+
+<tr>
+<td class="org-left">Y</td>
+<td class="org-left">Tirosine</td>
+<td class="org-left">Tyr</td>
+</tr>
+
+<tr>
+<td class="org-left">H</td>
+<td class="org-left">Histidine</td>
+<td class="org-left">His</td>
+</tr>
+
+<tr>
+<td class="org-left">R</td>
+<td class="org-left">Arginine</td>
+<td class="org-left">Arg</td>
+</tr>
+
+<tr>
+<td class="org-left">N</td>
+<td class="org-left">Asapragine</td>
+<td class="org-left">Asn</td>
+</tr>
+
+<tr>
+<td class="org-left">D</td>
+<td class="org-left">Aspartic Acid</td>
+<td class="org-left">Asp</td>
+</tr>
+
+<tr>
+<td class="org-left">T</td>
+<td class="org-left">Threonine</td>
+<td class="org-left">Thr</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+<div id="outline-container-org53d0b92" class="outline-4">
+<h4 id="org53d0b92">Classificação dos aminoácidos:</h4>
+<div class="outline-text-4" id="text-org53d0b92">
+<ul class="org-ul">
+<li>Os aminoácidos podem ser classificados de acordo com suas cadeias laterais nas seguintes classificações:
+<ul class="org-ul">
+<li>Alifáticos, não polares</li>
+<li>Aromáticos</li>
+<li>Não Carregados, polares</li>
+<li>Carregados positivamente</li>
+<li>Carregados negativamente</li>
+</ul></li>
+</ul>
+
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Alifáticos não polares</th>
+<th scope="col" class="org-left">Aromáticos</th>
+<th scope="col" class="org-left">Não carregados, polares</th>
+<th scope="col" class="org-left">Carregados positivamente</th>
+<th scope="col" class="org-left">Carregados negativamente</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Glycine</td>
+<td class="org-left">Phenyalanine</td>
+<td class="org-left">Serine</td>
+<td class="org-left">Lysine</td>
+<td class="org-left">Aspartate</td>
+</tr>
+
+<tr>
+<td class="org-left">Alanine</td>
+<td class="org-left">Tyrosine</td>
+<td class="org-left">Threonine</td>
+<td class="org-left">Asginine</td>
+<td class="org-left">Glutamate</td>
+</tr>
+
+<tr>
+<td class="org-left">Valine</td>
+<td class="org-left">Tryptophan</td>
+<td class="org-left">Cysteine</td>
+<td class="org-left">Histidine</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Leucine</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Proline</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Methionine</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Asparagine</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">Isoleucine</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">Glutamine</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<ul class="org-ul">
+<li><a id="orge2004ba"></a>Devemos tomar cuidado com o Pka dos Aminoácidos carregados<br /></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org22fe196" class="outline-2">
+<h2 id="org22fe196">AULA 3: Ligação peptídica -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></h2>
+<div class="outline-text-2" id="text-org22fe196">
+</div>
+<div id="outline-container-org8e1a621" class="outline-3">
+<h3 id="org8e1a621">Ligação peptídica</h3>
+<div class="outline-text-3" id="text-org8e1a621">
+<p>
+Um tipo de ligação covalente realizada entre 2 aminoáidos
+</p>
+
+<p>
+Peptideos são formados a partir de várias ligações de aminoácidos
+</p>
+<ul class="org-ul">
+<li>Dipeptideo: 2 aminoácidos</li>
+<li>Tripeptideo: 3 aminoácidos</li>
+<li>Oligopeptideos: 4-10 aminoácidos</li>
+<li>Popipeptideo:10-100 aminoácidos</li>
+<li>Poteínas: Quantidade de aminoácidos &gt; 100</li>
+</ul>
+</div>
+
+<ul class="org-ul">
+<li><a id="orgd02ce98"></a>Conformação<br />
+<div class="outline-text-6" id="text-orgd02ce98">
+<p>
+a partir da ligação dos aminoácidos existe os ângulos de conformação chamados de &phi; (phi) e &psi; (psi)
+formado entre o ângulo de 4 atomos e também é chamado de ângulo de torção.
+</p>
+
+<p>
+A partir dessas rotações existem posições permitidas e posições proíbidas(onde existem choques entre os átomos)
+</p>
+</div>
+</li>
+</ul>
+</div>
+
+
+<div id="outline-container-org49b2378" class="outline-3">
+<h3 id="org49b2378">Gráfico de Ramachandran</h3>
+<div class="outline-text-3" id="text-org49b2378">
+<p>
+Representa as regiões permitidas e proíbidas na confomação
+</p>
+<ul class="org-ul">
+<li>As regiões em azul são permitidas</li>
+<li>As regiões em branco são regiões proíbidas onde exite choque de átomos</li>
+</ul>
+
+
+
+<div id="orgbef9328" class="figure">
+<p><img src="./images/ramachandram.png" alt="ramachandram.png" />
+</p>
+</div>
+
+<p>
+Esse gráfico avalia a qualidade esteroquímica da proteína
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgedac763" class="outline-2">
+<h2 id="orgedac763">AULA 4: Interações não covalentes -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></h2>
+<div class="outline-text-2" id="text-orgedac763">
+<p>
+A ligação é energéticamente mais fraca mas é significativa para a conformação da estrutura secundária
+</p>
+</div>
+
+<div id="outline-container-org8dbad81" class="outline-3">
+<h3 id="org8dbad81">Interações importantes</h3>
+<div class="outline-text-3" id="text-org8dbad81">
+<ul class="org-ul">
+<li>Ligação de hidrogênio</li>
+<li>Interação Iônica</li>
+<li>Interação de van deer Waals
+<ul class="org-ul">
+<li>Cada Átomo na interação tem a um raio específico na relação</li>
+</ul></li>
+<li>Interação hidrofóbica</li>
+<li>Ponte dissulfeto</li>
+</ul>
+</div>
+
+<div id="outline-container-org405f3a8" class="outline-4">
+<h4 id="org405f3a8">Aminoácidos hidrofóbicos</h4>
+<div class="outline-text-4" id="text-org405f3a8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Alanine</td>
+</tr>
+
+<tr>
+<td class="org-left">Valine</td>
+</tr>
+
+<tr>
+<td class="org-left">Leucine</td>
+</tr>
+
+<tr>
+<td class="org-left">Isoleucine</td>
+</tr>
+
+<tr>
+<td class="org-left">Proline</td>
+</tr>
+
+<tr>
+<td class="org-left">Methionine</td>
+</tr>
+
+<tr>
+<td class="org-left">Phenyalanine</td>
+</tr>
+
+<tr>
+<td class="org-left">Triptophan</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5294f9f" class="outline-2">
+<h2 id="org5294f9f">AULA 5: Estrutura de proteínas -&#xa0;&#xa0;&#xa0;<span class="tag"><span class="TE_RICA">TEÓRICA</span></span></h2>
+<div class="outline-text-2" id="text-org5294f9f">
+</div>
+<div id="outline-container-org84715f5" class="outline-3">
+<h3 id="org84715f5">Estrutura Primária</h3>
+<div class="outline-text-3" id="text-org84715f5">
+<p>
+A estrutura primária das proteína é somente a sequência de aminoácidos porém as estruturas secundárias e terciárias dependem do enovelamento
+</p>
+
+<p>
+Esta estrutura primária é representada em arquivos FASTA
+</p>
+</div>
+</div>
+
+<div id="outline-container-org327cfca" class="outline-3">
+<h3 id="org327cfca">Estrutura Secundária</h3>
+<div class="outline-text-3" id="text-org327cfca">
+<p>
+É formada a partir dos ângulos entre as ligações pepitidicas ( &alpha;-hélice e &beta;-folhas )
+</p>
+</div>
+<div id="outline-container-orgce261a3" class="outline-4">
+<h4 id="orgce261a3">&alpha;-Helice</h4>
+<div class="outline-text-4" id="text-orgce261a3">
+<p>
+Fatores que afetam a estabilidade da &alpha;-helice:
+</p>
+<ul class="org-ul">
+<li>Repulção ou atração eletroestática entre as cadeias laterais</li>
+<li>Volume das cadeias laterais</li>
+<li>Ocorrência de prolina e cisteína</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org087479d" class="outline-4">
+<h4 id="org087479d">&beta;-folha</h4>
+<div class="outline-text-4" id="text-org087479d">
+<p>
+Podem ser paralelas ou anti-paralelas
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgadddfc0" class="outline-3">
+<h3 id="orgadddfc0">Estrutura Terciária</h3>
+<div class="outline-text-3" id="text-orgadddfc0">
+<p>
+Surgimento das alças (loops) e dobraduras
+</p>
+
+<p>
+É a conformação tridimencional da proteína
+</p>
+</div>
+
+<div id="outline-container-org384f0b8" class="outline-4">
+<h4 id="org384f0b8">Fatores importantes para a estrutura terciária:</h4>
+<div class="outline-text-4" id="text-org384f0b8">
+<ul class="org-ul">
+<li>Cadeias laterais hidrofóbicas</li>
+<li>Cadeias laterais longas</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9863bb5" class="outline-3">
+<h3 id="org9863bb5">Estrutura Quartenária</h3>
+<div class="outline-text-3" id="text-org9863bb5">
+<p>
+Formada pela interação de cadeias proteícas
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf00384d" class="outline-2">
+<h2 id="orgf00384d">AULA 6:</h2>
+</div>
+<div id="outline-container-org41fc475" class="outline-2">
+<h2 id="org41fc475">AULA 7:</h2>
+</div>
+<div id="outline-container-orge3580e4" class="outline-2">
+<h2 id="orge3580e4">AULA 8:</h2>
+</div>
+<div id="outline-container-org10e49e1" class="outline-2">
+<h2 id="org10e49e1">AULA 9</h2>
+</div>
+<div id="outline-container-org4e99ebf" class="outline-2">
+<h2 id="org4e99ebf">AULA 10</h2>
+</div>
+<div id="outline-container-orgca161ee" class="outline-2">
+<h2 id="orgca161ee">AULA 11</h2>
+</div>
+<div id="outline-container-orga65c255" class="outline-2">
+<h2 id="orga65c255">AULA 12</h2>
+</div>
+</div>
+</body>
+</html>
